@@ -1,0 +1,8 @@
+numpy 
+matplotlib 
+scipy 
+pandas 
+PySimpleGUI 
+pygetwindow 
+pyautogui 
+pillow

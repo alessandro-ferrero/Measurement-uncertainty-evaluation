@@ -14,6 +14,8 @@ You can install these libraries using pip:
 
 pip install numpy matplotlib scipy pandas PySimpleGUI pygetwindow pyautogui pillow
 """
+import os
+os.system("pip install -r ./requirements.txt")
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -27,7 +29,6 @@ import PySimpleGUI as sg
 import math
 import statistics as stat
 import re
-import os
 import pygetwindow as gw
 import pyautogui
 from PIL import Image
